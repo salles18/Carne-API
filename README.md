@@ -54,6 +54,10 @@ Instale as dependências:
 
 composer install
 
+# Iniciar o projeto:
+
+php artisan serve
+
 ## Testes
 Testando com Postman ou Insomnia
 Criar um Carnê:
