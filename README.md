@@ -18,7 +18,7 @@ Este projeto consiste em uma API RESTful desenvolvida em Laravel para gerar e ap
 
 **Resposta em JSON:**
 
-```json
+
 {
   "total": 100.00,
   "valor_entrada": 0.00,
@@ -48,7 +48,7 @@ Laravel 9.x
 # Passos para Instalação
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/salles18/Carne-API.git
 cd seu-projeto
 Instale as dependências:
 
@@ -64,7 +64,7 @@ URL: http://localhost:8000/api/carne
 
 Corpo da requisição (JSON):
 
-json
+```json
 
 {
   "valor_total": 100.00,
@@ -72,6 +72,7 @@ json
   "data_primeiro_vencimento": "2024-08-01",
   "periodicidade": "mensal"
 }
+```
 Recuperar Parcelas de um Carnê:
 
 Método: GET
