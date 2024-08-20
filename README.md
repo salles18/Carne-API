@@ -18,7 +18,7 @@ Este projeto consiste em uma API RESTful desenvolvida em Laravel para gerar e ap
 
 **Resposta em JSON:**
 
-
+```
 {
   "total": 100.00,
   "valor_entrada": 0.00,
@@ -36,7 +36,7 @@ Este projeto consiste em uma API RESTful desenvolvida em Laravel para gerar e ap
     ...
   ]
 }
-
+```
 ## Instalação
 Requisitos
 PHP >= 8.0
